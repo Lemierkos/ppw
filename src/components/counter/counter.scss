@@ -1,0 +1,41 @@
+.app {
+  &__counter {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    &__text {
+      font-size: 30px;
+      display: flex;
+      border: 2px solid red;
+    }
+    &__button__add {
+      outline: none;
+      width: 300px;
+      height: 60px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      font-size: 30px;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(223, 209, 209);
+        transform: scale(1.05);
+      }
+    }
+    &__button__sub {
+      margin-top: 20px;
+      outline: none;
+      width: 300px;
+      height: 60px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      font-size: 30px;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(223, 209, 209);
+        transform: scale(1.05);
+      }
+    }
+  }
+}
